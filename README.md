@@ -1,6 +1,7 @@
-    HTML
+
+HTML:
 Added basic html structure.
 Added navbar.
-    CSS
-Added basic css for page.
-Added css for navbar.
+CSS:
+Added basic CSS for the page.
+Added CSS for the navbar.
