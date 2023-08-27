@@ -54,3 +54,26 @@ nav {
     background: #fff;
     color: #000;
 }
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .logo a {
+        margin: 5px 0;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+    }
+
+    .nav-bar ul li a {
+        margin: 5px 0;
+    }
+}
