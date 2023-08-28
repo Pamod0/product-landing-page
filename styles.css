@@ -77,3 +77,71 @@ nav {
         margin: 5px 0;
     }
 }
+
+.img{
+    background: url(/assests/product.png) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50% , -50%);
+    padding: 0 20px;
+    text-align: center;
+}
+
+.center .title {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.center .sub_title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.center .btns {
+    margin-top: 20px;
+}
+
+.center .btns button {
+    height: 55px;
+    width: 170px;
+    border-radius: 30px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.center .btns button { 
+    color: #fff; 
+    background: none;
+}
+
+.btns button:hover { 
+    background: white; 
+    color: black;
+}
