@@ -122,7 +122,7 @@ nav {
     margin-top: 20px;
 }
 
-.center .btns button {
+.buttons {
     height: 55px;
     width: 170px;
     border-radius: 30px;
@@ -134,14 +134,98 @@ nav {
     padding: 10 10px;
     cursor: pointer;
     outline: none;
-}
-
-.center .btns button { 
     color: #fff; 
     background: none;
 }
 
-.btns button:hover { 
+.buttons:hover { 
     background: white; 
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+
+    .center .title {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .center .sub_title {
+        font-size: 15;
+        font-weight: 600;
+        padding: 3px;
+    }
+    
+    .center .btns {
+        margin-top: 20px;
+    }
+    
+    .center .btns button {
+        height: 25px;
+        width: 80px;
+        border-radius: 5px;
+        border: none;
+        margin: 0 5px;
+        border: 1px solid white;
+        font-size: 10px;
+        font-weight: 100;
+        padding: 0 5px;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease;
+    }
+}
+
+#title {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.notice {
+    font-family: sans-serif;
+    margin: 50px 10px;
+    padding: 10px 500px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.email-area {
+    margin: 10px 10px;
+    padding: 50px 10px;
+}
+
+input {
+    border: solid #fff;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    padding: 8px;
+    width: 400px;
+}
+
+#sub-btn {
+    color: #fff;
+    background: none;
+    height: 40px;
+    width: 170px;
+    border-radius: 30px;
+    border: none;
+    margin: 20px 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+#display {
+    font-family: sans-serif;
+    margin: 50px 10px;
+    padding: 10px 500px;
+    color: #fff;
+    font-size: 20px;
 }
