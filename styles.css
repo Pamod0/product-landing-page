@@ -79,7 +79,7 @@ nav {
 }
 
 .img{
-    background: url(/assests/product.png) no-repeat;
+    background: url(product.png) no-repeat;
     height: 100vh;
     width: 100%;
     background-position: center;
