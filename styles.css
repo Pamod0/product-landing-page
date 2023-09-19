@@ -185,21 +185,21 @@ nav {
 
 .notice {
     font-family: sans-serif;
-    margin: 50px 10px;
-    padding: 10px 500px;
+    margin: 100px 10px 40px 0px;
+    padding: 10px 500px 0px 500px;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .email-area {
     margin: 10px 10px;
-    padding: 50px 10px;
+    
 }
 
 input {
     border: solid #fff;
     border-radius: 10px;
-    height: 50px;
+    height: 40px;
     font-size: 20px;
     padding: 8px;
     width: 400px;
@@ -209,15 +209,15 @@ input {
     color: #fff;
     background: none;
     height: 40px;
-    width: 170px;
-    border-radius: 30px;
+    width: 120px;
+    border-radius: 20px;
     border: none;
     margin: 20px 10px;
     border: 2px solid white;
     font-size: 20px;
     font-weight: 500;
     font-family: sans-serif;
-    padding: 2px;
+    padding: 2px 1px;
     cursor: pointer;
     outline: none;
 }
